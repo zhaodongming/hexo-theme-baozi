@@ -1,2 +1,6 @@
 # hexo-theme-baozi
-hexo-theme-baozi
+hexo-theme-baozi主题灵感来源于京东凹凸实验室，个人非常喜欢凹凸实验室的博客风格。在安装使用hexo-theme-o2主题过程中，遇到报错，于是索性自己写了一个类似风格的hexo主题。本主题在o2功能模块上基做了组织类博客到个人博客的移植。
+
+
+
+
