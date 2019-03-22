@@ -1,0 +1,8 @@
+<li  class="<%= index=='all'?'active':''%>">
+    <a href="/">全部文章</a>
+</li>
+<%site.categories && site.categories.forEach(function(item){ %>
+<li class="<%= item.name==index?'active':''%>">
+    <a href="<%- url_for(item.path)%>"><%= item.name%></a>
+</li>
+<%})%>

@@ -1,0 +1,12 @@
+<div class="flinkBox">
+    <div class="fltitle">
+        <h2>友情链接</h2>
+    </div>
+    <div class="fl_list">
+        <ul>
+            <% for(var key in theme.friendshipLink){%>
+                <li><a href="<%= theme.friendshipLink[key]%>" target="_blank" title="<%= key%>"><%= key%></a></li>
+            <% }%>
+        </ul>
+    </div>
+</div>

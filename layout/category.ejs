@@ -1,0 +1,27 @@
+<div class="banner">
+    <img src="<%- url_for(theme.banner) %>" alt="">
+</div>
+<section>
+    <div  class="container">
+        <div class="main">
+            <div class="main-section">
+                <nav>
+                    <ul>
+                        <%- partial('_partial/menu',{index: page.category}) %>
+                    </ul>
+                </nav>
+                <div class="articles">
+                    <%-createMenu(page.posts)%>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <%- partial('_partial/wx') %>
+            <%- partial('_partial/friendshipLink') %>
+        </aside>
+    </div>
+    <% if (page.total > 1){ %>
+    <%- partial('page') %>
+    <% } %>
+</section>
+<%- partial('_partial/backtop') %>

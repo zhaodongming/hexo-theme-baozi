@@ -1,0 +1,38 @@
+menu:
+  首页: /
+  归档: /archives/
+  项目案例: /project/
+  关于: /about/
+  开源地址: https://github.com/zhaodongming
+
+logo: /images/logo.png
+favicon: /images/logo.png
+banner: /images/logo.png
+
+# 文章默认缩略图
+default_cover: /images/default_cover.png
+
+# 微信公众号
+WXcode: /images/qrcode.jpg
+
+# 友情连接
+friendshipLink:
+  京东设计中心: https://jdc.jd.com
+  Deep Ocean: http://dopro.io/
+  百度Web前端研发部: http://fex.baidu.com
+
+# 打赏功能
+reward:
+  switch: true #true代表开启打赏,false代表关闭打赏
+  wechat: http://ziyuan.qikepower.com/wx.png #微信
+  alipay: http://ziyuan.qikepower.com/zfb.jpg #支付宝
+
+#gitalk 评论功能
+#使用前需要去https://github.com/settings/applications/new进行创建一个Github Application
+gitment:
+  switch: true #是否开启评论
+  owner: zhaodongming #github用户名
+  repo: zhaodongming.github.io  #用户存储评论的github项目名称
+  client_id: 5b8d35f0aa2ff3fb215f #注册OAuth Application时生产的ClinetID
+  admin: 645394545@qq.com # 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
+  client_secret:  f2d66b4efccabb319e5c269a201ccfabafe61344 #注册OAuth Application时生成的Client Secret

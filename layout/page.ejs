@@ -1,0 +1,13 @@
+<div class="pagerBox">
+    <% if (page.prev) { %>
+    <a class="preBtn" href="<%- url_for(page.prev_link) %>"><span class="pageBtn">《 </span>上一页</a>
+    <% }else{%>
+    <a class="preBtn disab" href="javascript:void(0)"><span class="pageBtn">《 </span>上一页</a>
+    <%} %>
+    <span><%= page.current%></span>
+    <% if (page.next) { %>
+    <a class="nextBtn" href="<%- url_for(page.next_link) %>">下一页<span class="pageBtn"> 》</span></a>
+    <% }else{%>
+    <a class="nextBtn disab" href="javascript:void(0)">下一页<span class="pageBtn"> 》</span></a>
+    <%} %>
+</div>

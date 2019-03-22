@@ -1,0 +1,14 @@
+<div class="flinkBox">
+    <div class="fltitle">
+        <h2>文章标签</h2>
+    </div>
+    <div class="fl_list">
+        <ul>
+            <%site.tags && site.tags.forEach(function(item){ %>
+            <li><a href="<%- url_for(item.path)%>" target="_blank" title="<%= item.name%>"><%= item.name%></a></li>
+            <a href=""></a>
+            </li>
+            <%})%>
+        </ul>
+    </div>
+</div>
